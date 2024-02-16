@@ -8,7 +8,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="icon" href="./images/download (1).png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>GitHub CLI | Take GitHub to the command line</title>
   </head>
   <body>
@@ -35,13 +41,13 @@
     <div class="section1-container-fluid">
       <div class="section1-container">
         <div class="section1-content">
-          <h1>Take GitHub to the command line</h1>
-          <p>
+          <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Take GitHub to the command line</h1>
+          <p class="animate__animated animate__fadeInUp animate__delay-2s">
             GitHub CLI brings GitHub to your terminal. Free and open source.
           </p>
-          <button class="section1-button">Download For Windows</button>
+          <button class="section1-button animate__animated animate__zoomIn animate__delay-3s">Download For Windows</button>
           <br />
-          <a href="#"
+          <a href="#" class="animate__animated animate__fadeInUp animate__delay-4s"
             >View Installation Instructions
             <i class="fa-solid fa-arrow-right"></i
           ></a>
@@ -55,7 +61,7 @@
     <div class="section2-container-fluid">
       <div class="section2-container">
         <div class="section2-image">
-          <div class="section2-text">
+          <div class="section2-text" data-aos="fade-up" data-aos-duration="1000">
             <center>
               <a href="https://git.io/typing-svg"
                 ><img
@@ -65,7 +71,7 @@
               <p>View and filter a repository’s open issues.</p>
             </center> 
           </div>
-          <div class="section2-content">
+          <div class="section2-content" data-aos="fade-up" data-aos-duration="1000">
             <i class="fa-solid fa-circle circle1"></i>
             <i class="fa-solid fa-circle circle2"></i>
             <i class="fa-solid fa-circle circle3"></i>
@@ -88,7 +94,7 @@
             </div>
           </div>
         </div>
-        <div class="section2-last">
+        <div class="section2-last" data-aos="fade-up" data-aos-duration="1000">
           <a href="#"
             >View All Github CLI Command <i class="fa-solid fa-arrow-right"></i
           ></a>
@@ -101,11 +107,11 @@
 
     <div class="section3-container-fluid">
       <div class="section3-container">
-        <h1>
+        <h1 data-aos="fade-right" data-aos-duration="1000">
           Goodbye context switching. <br />
           Hello, terminal.
         </h1>
-        <div class="section3-container-boxes">
+        <div class="section3-container-boxes" data-aos="fade-up" data-aos-duration="1000">
           <div class="section3-box">
             <h2>Your entire GitHub workflow</h2>
             <p>Work with issues, pull requests, checks, releases and more.</p>
@@ -148,7 +154,7 @@
 
     <div class="section4-container-fluid">
       <div class="section4-container">
-        <div class="section4-content">
+        <div class="section4-content" data-aos="fade-up" data-aos-duration="1000">
           <h2>Try GitHub on the command line</h2>
           <p>
             GitHub CLI brings GitHub to your terminal. Free and open source.
@@ -238,4 +244,7 @@
       </div>
     </div>
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>
