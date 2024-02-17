@@ -281,7 +281,7 @@
 }
 .section3-box{
     height: auto;
-    width: 300px;
+    width: 360px;
     padding-bottom: 10px;
     margin-top: 30px;
     display: flex;
@@ -651,3 +651,21 @@
         font-size: 0.8rem;
     }
  } */
+
+          /* perfect media query sizes */
+/* 
+ all mobiles
+ @media screen and (max-width:500px) {
+    
+ }
+
+tablets
+ @media screen and (min-width:500px) and  (max-width:768px) {
+    
+ }
+
+ laptop 
+
+@media screen and (min-width:768px) and (max-width:1440) {
+    
+}  */
