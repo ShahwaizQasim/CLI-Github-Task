@@ -74,7 +74,7 @@
     height: auto;
     background-color: var(--section1-color);
     margin-top: -70px;
-    padding-bottom: 180px;
+    padding-bottom: 200px;
 }
 .section1-container{
     height: auto;
@@ -153,7 +153,7 @@
 }
 .section2-text{
     height: auto;
-    width: 300px;
+    width: 380px;
     font-weight: 500;
     display: flex;
     justify-content: center;
@@ -218,7 +218,6 @@
 }
 .section2-text1{
     height: auto;
-    width: 500px;
     margin-top: 20px;
     line-height: 20px;
     display: flex;
@@ -267,7 +266,7 @@
 }
 .section3-container> h1{
     font-size: 3.5rem;
-    padding: 4rem 0 0 3rem;
+    padding: 4rem 0 0 1rem;
     color: #1F2328;
     font-weight: 800;
     margin-bottom: 20px;
@@ -281,7 +280,7 @@
 }
 .section3-box{
     height: auto;
-    width: 360px;
+    width: 320px;
     padding-bottom: 10px;
     margin-top: 30px;
     display: flex;
@@ -461,17 +460,17 @@
         width: 600px;
     }
     .section2-content{
-        width: 800px;
+        width: 85%;
     }
     .section3-box{
-        width: 225px;
+        width: 250px;
     }        
     .section3-container-boxes{
         gap: 10px;
     } 
-    .section3-container-fluid > h1{
+    .section3-container > h1{
         font-size: 3rem;
-        padding-left: 2rem;
+        padding-left: 0rem;
     }
     .section3-box > h2{
         font-weight: 700;
@@ -497,12 +496,39 @@
     .section2-content{
         width: 700px;
     }
+    .section3-container> h1{
+        font-size: 3rem;
+        padding: 4rem 0 0 0rem;
+    }     
+}
+@media screen and (max-width:768px){
+    .section1-content{
+        width: 80%;
+    }
+    .section2-content{
+        width: 85%;
+    }
+    .section2-text{
+        width: 250px;
+    }
+    .section2-text > center >p{
+        color: var(--text-color2);
+        font-size: 0.5rem;
+        padding-top: 5px;
+     }
+     .section2-last{
+        width: 70%;
+     }
+     .section2-last > a {
+        font-size: 1rem;
+     }
     .section3-box{
         width: 225px;
     }  
     .section3-container> h1{
         font-size: 3rem;
-    }      
+        padding: 4rem 0 0 0rem;
+    }     
     .section3-container-boxes{
         gap: 5px;
     } 
@@ -531,21 +557,117 @@
         margin-top: 10px;
     }
 }
-@media screen and (max-width:700px){
+ @media screen and (max-width:600px){
+    .navbar{
+        width: 100%;
+    }
+    .section1-content{
+        width: 95%;
+    }
+    .section2-content{
+        width: 85%;
+    }
+    .footer-box{
+        width: 200px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .section1-button{
+        height: 40px;
+        width: 180px;
+        font-size: 0.8rem;
+    }
+    .section1-content > a{
+        font-size: 0.7rem;
+    }
+    .section2-last{
+        width: auto;
+    }
+    .section2-last > a{
+        font-size: 1rem;
+    }
+    .section3-container> h1{
+        font-size: 2rem;
+    } 
+}
+ @media screen and (max-width:570px){
+    .section1-content{
+        width: 95%;
+    }
     .section1-content > h1{
-        font-size: 3rem;
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+    .section2-content{
+        width: 85%;
+    }
+    .section2-text{
+        width: 250px;
+    }
+    .section2-text > center >p{
+        font: 0.7rem;
+    }
+    .section1-content > p{
+        font-size: 0.9rem;
+    }
+    .section2-content{
+        width: 400px;
+    }
+    .section2-content > span{
+        font-size: 12px;
+    }
+    .section2-text1 > p{
+        font-size: 10px;
+    }
+    .section2-last{
+        width: auto;
+    }
+    .section2-last > a{
+        font-size: 1rem;
+    }
+    .footer-nav-box1 > ul{
+        padding-left: 15px;
+    }
+    .footer-nav-box2 > ul{
+        padding-right: 15px;
+    }
+    .footer-nav-box2 > ul > li{
+        font-size: 1.2rem;
+    }
+ }
+ @media screen and (max-width:500px){
+    .nav-cli-logo > a > .nav-icon{
+        font-size: 1.5rem;
+    }
+    .nav-cli-logo > a > span{
+        font-size: 14px;
+    }
+    .nav-text >ul{
+        padding-right: 1rem;
+    }
+    .section1-content{
+        width: 95%;
+    }
+    .section1-content > h1{
+        font-size: 2rem;
     }
     .section1-content > p{
         font-size: 1.2rem;
     }
     .section2-content{
-        width: 600px;
+        width: 95%;
+    }
+    .section2-text{
+        width: 80%;
+    }
+    .section2-last{
+        width: 70%;
     }
     .section2-last > a{
-        font-size: 18px;
+        font-size: 12px;
     }
     .section3-container> h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-left: 1rem;
     }   
     .section3-container-boxes{
@@ -572,77 +694,18 @@
         flex-wrap: wrap;
     }
  }
- @media screen and (max-width:600px){
-    .navbar{
-        width: 100%;
+
+ /* @media screen and (max-width:499px){
+    .section1-content{
+        width: 95%;
     }
     .section2-content{
         width: 85%;
     }
-    .footer-box{
-        width: 200px;
-        margin-top: 10px;
-        flex-wrap: wrap;
+    .section2-last{
+        width: auto;
     }
-    .section1-button{
-        height: 40px;
-        width: 180px;
-        font-size: 0.8rem;
-    }
-    .section1-content > a{
-        font-size: 0.7rem;
-    }
-    .section3-container> h1{
-        font-size: 1.5rem;
-    } 
-    .section2-last > a{
-        font-size: 18px;
-    }
-}
- @media screen and (max-width:570px){
-    .section1-content > h1{
-        font-size: 1.8rem;
-        margin-top: 10px;
-    }
-    .section2-content{
-        width: 85%;
-    }
-    .section2-text{
-        width: 250px;
-    }
-    .section2-text > center >p{
-        font: 0.7rem;
-    }
-    .section1-content > p{
-        font-size: 0.9rem;
-    }
-    .section2-content{
-        width: 400px;
-    }
-    .section2-content > span{
-        font-size: 12px;
-    }
-    .section2-text1 > p{
-        font-size: 10px;
-    }
-    .section2-last > a{
-        font-size: 1rem;
-    }
-    .footer-nav-box1 > ul{
-        padding-left: 15px;
-    }
-    .footer-nav-box2 > ul{
-        padding-right: 15px;
-    }
-    .footer-nav-box2 > ul > li{
-        font-size: 1.2rem;
-    }
- }
- @media screen and (max-width:450px){
-    .section2-content{
-        width: 85%;
-    }
- }
+ } */
  /* @media screen and (max-width:530px){
     .section1-content > h1{
         font-size: 1.5rem;
